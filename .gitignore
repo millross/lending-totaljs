@@ -1,0 +1,13 @@
+/build/
+/coverage/
+/node_modules/
+npm-debug.log
+
+
+.DS_Store
+
+### IDE specific files ###≈
+/.idea/
+.project
+/nbproject/
+/.settings/

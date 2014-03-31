@@ -1,0 +1,29 @@
+{
+  "name": "lending-totaljs",
+  "version": "0.0.0",
+  "description": "A lending system, written in TotalJS",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "1.9.0",
+    "istanbul": "0.2.6",
+    "jshint": "2.4.3",
+    "mocha": "1.17.1",
+    "sinon": "1.7.3",
+    "plato": "~1.0.1"
+  },
+  "author": "cheltenhamjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheltenhamjs/lending-sails"
+  },
+  "licence": "MIT",
+  "scripts": {
+    "check-coverage": "istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100",
+    "complexity": "plato --jshint .jshintrc --recurse --dir reports/complexity lib",
+    "coverage": "istanbul cover _mocha -- --reporter spec",
+    "jshint": "jshint ./",
+    "mocha": "mocha test",
+    "test": "npm run-script jshint && npm run-script mocha"
+  }
+}

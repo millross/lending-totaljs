@@ -1,0 +1,14 @@
+{
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "node": true,
+    "newcap": true,
+    "quotmark": "double",
+    "trailing": true,
+    "undef": true,
+    "unused": false
+}
